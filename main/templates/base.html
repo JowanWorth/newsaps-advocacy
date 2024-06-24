@@ -1,0 +1,23 @@
+<!-- main/templates/base.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsaps Advocacy</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+    <header class="bg-blue-600 text-white p-4">
+        <h1 class="text-2xl">Newsaps Advocacy</h1>
+        <!-- Add navigation here -->
+    </header>
+    <main class="container mx-auto mt-4 p-4">
+        {% block content %}
+        {% endblock %}
+    </main>
+    <footer class="bg-gray-200 p-4 mt-8">
+        <!-- Add footer content here -->
+    </footer>
+</body>
+</html>
