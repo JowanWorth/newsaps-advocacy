@@ -3,3 +3,7 @@ __pycache__
 db.sqlite3
 .env
 venv/
+.bash_history
+.ssh/
+build-new-pi/
+notes
